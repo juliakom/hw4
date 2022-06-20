@@ -12,11 +12,11 @@ let arr = [
   {name: 'Julia', city: 'Odessa' },
 ]
 
-for (let i = 0; i < arr.length; i++) {
+for (i = 0; i < arr.length; i++) {
   console.log(typeof arr[i]);
 }
 
-for (let i = 0; i < arr.length; i++) {
+for (i = 0; i < arr.length; i++) {
   if (typeof arr[i] === 'number') {
     console.log(arr[i] + 3);
   }
@@ -62,7 +62,7 @@ studentThree.mark = 5;
 
 let count = [ studentOne.mark, studentTwo.mark, studentThree.mark];
 let sum = 0;
-for( i = 0; i < count.length; i++) {
+for(i = 0; i < count.length; i++) {
   sum += count[i];
 }
 count = sum / count.length;
